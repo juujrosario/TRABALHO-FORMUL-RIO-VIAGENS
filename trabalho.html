@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<center>Confirme sua viagem conosco</center>
+<title>Formulário de Viagem</title>
+<body>
+   <div>
+    <script src="julia.js"></script>
+    <center><h1>Formulário de Viagem</h1></center> 
+    <form id="meuFormulario">
+    
+        <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+        <input type="date" id="data" required>
+        <input type="time" id="hora" required>
+
+        <select id="embarque">
+            <option value="">Selecione o local de embarque</option>
+            <option value="Belo Horizonte - MG">Belo Horizonte - MG</option>
+            <option value="Rio de Janeiro - RJ">Rio de Janeiro - RJ</option>
+            <option value="Salvador - BA">Salvador - BA</option>
+            <option value="Fortaleza - CE">Fortaleza -  CE</option>
+            <option value="Recife - PE">Recife - PE</option>
+        </select>
+        <select id="desembarque">
+            <option value="">Selecione o local de desembarque</option>
+            <option value="Belo Horizonte - MG">Belo Horizonte - MG</option>
+            <option value="Rio de Janeiro - RJ">Rio de Janeiro - RJ</option>
+            <option value="Salvador - BA">Salvador - BA</option>
+            <option value="Fortaleza - CE">Fortaleza -  CE</option>
+            <option value="Recife - PE">Recife - PE</option>
+        </select>
+
+        <input id="botao" type="submit" value="Envie seu Formulário">
+        </form>
+    </div>
+    <div id="mensagem"></div>
+</head>
+</body>
+
+<div id="cookies-msg">
+    <p>Usamos cookies para melhorar sua experiência no nosso site. Ao continuar navegando, você concorda com nossa Política de Cookies</p>
+    <div id="aceitocookies">
+    <button onclick="aceito()" >ACEITO</button>
+    </div>
+    </div>
+    </html>
